@@ -20,10 +20,10 @@ pub fn struct_reader(){
         email:String::from("jaiks@jaiks.com"),
         sign_in_count:1
     };
-    let Rect1=Rect{
+    let Rect_1=Rect{
         height:30,
         width:20
     };
-    println!("Rect is {}",Rect1.area());
+    println!("Rect is {}",Rect_1.area());
     print!("username {:?}",user1.username);
 }
